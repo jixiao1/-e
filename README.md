@@ -1,24 +1,8 @@
-# my-app
+## 混入
+当组件中的数据和混入的数据相同时，已组件中的数据为主、
+当组件中的方法和混入的方法相同时，以组件中的方法为主
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+同名钩子函数将合并为一个数组，因此都将被调用。另外，混入对象的钩子将在组件自身钩子之前调用。
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
